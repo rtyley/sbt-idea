@@ -96,7 +96,7 @@ object SbtIdeaModuleMapping {
   }
 
   private def equivModule(m1: ModuleID, m2: ModuleID, scalaVersion: String) = {
-    def name(m: ModuleID): String = if (m.crossVersion) m.name + "_" + scalaVersion else m.name
+    def name(m: ModuleID): String = if (m.crossVersion != CrossVersion.Disabled) m.name + "_" + scalaVersion else m.name
 
     m1.organization == m2.organization && name(m1) == name(m2)
   }
