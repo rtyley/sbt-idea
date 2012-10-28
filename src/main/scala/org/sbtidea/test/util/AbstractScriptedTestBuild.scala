@@ -1,4 +1,4 @@
-package org.sbtidea.test.util
+package com.typesafe.sbtidea.test.util
 
 import sbt._
 import org.apache.commons.io.FileUtils.listFiles

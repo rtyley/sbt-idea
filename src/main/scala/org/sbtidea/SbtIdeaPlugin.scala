@@ -1,4 +1,4 @@
-package org.sbtidea
+package com.typesafe.sbtidea
 
 import sbt._
 import sbt.Load.BuildStructure

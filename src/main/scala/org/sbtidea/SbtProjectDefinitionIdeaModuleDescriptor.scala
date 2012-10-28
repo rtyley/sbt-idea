@@ -1,4 +1,4 @@
-package org.sbtidea
+package com.typesafe.sbtidea
 
 /**
  * Copyright (C) 2010, Mikko Peltonen, Jon-Anders Teigen, Mikko Koponen, Odd Möller, Piotr Gabryanczyk

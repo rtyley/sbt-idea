@@ -6,7 +6,7 @@ object SbtIdeaBuild extends Build {
 
   lazy val mainSettings: Seq[Project.Setting[_]] = Defaults.defaultSettings ++ Seq(
     sbtPlugin := true,
-    organization := "com.github.mpeltonen",
+    organization := "com.typesafe.sbtidea",
     name := "sbt-idea",
     version := "1.1.0-SNAPSHOT",
     publishTo := Some(Resolver.file("Github Pages", Path.userHome / "git" / "mpeltonen.github.com" / "maven" asFile)(Patterns(true, Resolver.mavenStyleBasePattern))),

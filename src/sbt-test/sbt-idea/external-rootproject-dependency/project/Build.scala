@@ -1,4 +1,4 @@
-import org.sbtidea.test.util.AbstractScriptedTestBuild
+import com.typesafe.sbtidea.test.util.AbstractScriptedTestBuild
 import sbt._
 import Keys.libraryDependencies
 
